@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-color: white;
+
     box-sizing: border-box;
 }
 .nawber{
@@ -69,19 +69,27 @@
 }
 .text button a{
     display: flex;
-    background-color: #458FF6;
-    color: white;
+    /* background-color: #458FF6; */
+    color: rgb(0, 0, 0);
     margin: 5px;
     text-decoration: none;
     }
-    .text button{
-        background-color: #458FF6;
-        border-radius: 45%;
-        border: none;
-        height: 50px;
-        width: 100px;
-        
+
+    .btn button,
+    .text button
+    .button2 button{
+      padding: 20px 35px;
+      border: 3px solid #458FF6;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      color: #458FF6;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
+   
+      
+    
 /* 3rd stage */
 
 .service
@@ -215,32 +223,37 @@
       display: block;
       height: 2px;
       width: 60px;
-      background: rgb(255, 255, 255);
+      background:#4facfe;
       margin: 8px auto 0;
     }
 
 /* 8th stage */
 
-        .footer {
+      .footer {
+      display: flex;
       background-color: #4facfe;
       color: rgb(255, 255, 255);
       padding: 60px 80px;
-      display: flex;
+
       justify-content: space-between;
       flex-wrap: wrap;
       
     }
 
     .footer-column {
-      flex: 1;
+      display: flex;
+      
+    
       min-width: 200px;
       margin: 20px;
       background-color: #4facfe;
+      
     }
 
     .footer .logo {
       display: flex;
       align-items: center;
+      flex-direction: column;
       font-weight: bold;
       font-size: 1.5em;
       margin-bottom: 20px;
@@ -248,7 +261,7 @@
     }
 
     .footer .logo-circle {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(248, 248, 248);
       color: #4facfe;
       border-radius: 50%;
       width: 30px;
@@ -305,8 +318,4 @@
         margin: 20px 0;
       }
 
-      .footer-bottom {
-        text-align: center;
-      }
-
-
+    
